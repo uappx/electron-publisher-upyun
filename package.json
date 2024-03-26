@@ -1,0 +1,35 @@
+{
+  "name": "@uappx/electron-publisher-upyun",
+  "version": "1.0.1",
+  "description": "使用又拍云作发布, upyun static publisher for Electron Forge",
+  "repository": "https://github.com/uappx/electron-publisher-upyun",
+  "author": "Qisen Yz <yinqisen@gmail.com>",
+  "license": "Apache-2.0",
+  "main": "dist/PublisherUpyun.js",
+  "typings": "dist/PublisherUpyun.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/debug": "^4.1.12",
+    "@types/upyun": "^3.4.3",
+    "chai": "^4.3.3",
+    "mocha": "10.3.0",
+    "typescript": "^5.4.3"
+  },
+  "engines": {
+    "node": ">= 16.4.0"
+  },
+  "dependencies": {
+    "@electron-forge/publisher-static": "7.3.1",
+    "@electron-forge/shared-types": "7.3.1",
+    "debug": "^4.3.4",
+    "upyun": "^3.4.6"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ]
+}
